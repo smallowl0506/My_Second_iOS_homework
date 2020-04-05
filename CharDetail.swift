@@ -17,7 +17,8 @@ struct CharDetail: View {
         VStack {
             CharImage(char: char)
             Text(char.intro)
-                .padding()
+                .frame(width: 200, height: 150, alignment: .center)
+            .padding(50)
         }
         .navigationBarTitle(char.name)
 
@@ -25,7 +26,7 @@ struct CharDetail: View {
 }
 struct CharDetail_Previews: PreviewProvider {
     static var previews: some View {
-        CharDetail(char: chars[0])
+        CharDetail(char: po_chars[0])
     }
 }
 

@@ -23,6 +23,7 @@
 		496EDE092438643800FD99FA /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EDE082438643800FD99FA /* SongList.swift */; };
 		496EDE0B243864F200FD99FA /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EDE0A243864F200FD99FA /* SongDetail.swift */; };
 		496EDE0D2438698900FD99FA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EDE0C2438698900FD99FA /* AppView.swift */; };
+		497254F12439A0C800E92105 /* AnimationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497254F02439A0C800E92105 /* AnimationTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		496EDE082438643800FD99FA /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
 		496EDE0A243864F200FD99FA /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
 		496EDE0C2438698900FD99FA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		497254F02439A0C800E92105 /* AnimationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				496EDE062438637400FD99FA /* SongRow.swift */,
 				496EDE082438643800FD99FA /* SongList.swift */,
 				496EDE0A243864F200FD99FA /* SongDetail.swift */,
+				497254F02439A0C800E92105 /* AnimationTest.swift */,
 				496EDE0C2438698900FD99FA /* AppView.swift */,
 				495B8446243701E900CBD05D /* My_Second_iOS_homework */,
 				495B8445243701E900CBD05D /* Products */,
@@ -184,6 +187,7 @@
 				496EDDFF24384C8D00FD99FA /* Char.swift in Sources */,
 				496EDDFD24384AC700FD99FA /* CharList.swift in Sources */,
 				496EDE0324385CD200FD99FA /* CharDetail.swift in Sources */,
+				497254F12439A0C800E92105 /* AnimationTest.swift in Sources */,
 				496EDE092438643800FD99FA /* SongList.swift in Sources */,
 				495B844A243701E900CBD05D /* SceneDelegate.swift in Sources */,
 				496EDE072438637400FD99FA /* SongRow.swift in Sources */,

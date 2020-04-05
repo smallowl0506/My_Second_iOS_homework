@@ -30,12 +30,46 @@ struct CharList: View {
             }
             .navigationBarTitle("邦邦角色介紹")*/
             List {
-                Section(header: Text("遊戲角色")){
-                    ForEach(chars.indices){ (item) in
-                        NavigationLink(destination: CharDetail(char: chars[item])){
-                            CharRow(char: chars[item])
+                Section(header: Text("Poppin'Party")){
+                    ForEach(po_chars.indices){ (item) in
+                        NavigationLink(destination: CharDetail(char: po_chars[item])){
+                            CharRow(char: po_chars[item])
                         }
                     }
+                }
+                Section(header: Text("Roselia")){
+                    ForEach(ro_chars.indices){ (item) in
+                        NavigationLink(destination: CharDetail(char: ro_chars[item])){
+                            CharRow(char: ro_chars[item])
+                        }
+                    }
+                }
+                Section(header: Text("Afterglow")){
+                    ForEach(af_chars.indices){ (item) in
+                        NavigationLink(destination: CharDetail(char: af_chars[item])){
+                            CharRow(char: af_chars[item])
+                        }
+                    }
+                }
+                Section(header: Text("Pastel*Palettes")){
+                    ForEach(pa_chars.indices){ (item) in
+                        NavigationLink(destination: CharDetail(char: pa_chars[item])){
+                            CharRow(char: pa_chars[item])
+                        }
+                    }
+                }
+                Section(header: Text("Hello, Happy World!")){
+                    ForEach(he_chars.indices){ (item) in
+                        NavigationLink(destination: CharDetail(char: he_chars[item])){
+                            CharRow(char: he_chars[item])
+                        }
+                    }
+                }
+                Section(header: Text("Morfonica")){
+                    Text("敬請期待")
+                }
+                Section(header: Text("RAISE A SUILEN")){
+                    Text("敬請期待")
                 }
                 Section(header: Text("神秘人物")){
                     ForEach(sp_chars.indices){ (item) in
@@ -44,7 +78,14 @@ struct CharList: View {
                         }
                     }
                 }
+                Section(header: Text("動畫")){
+                        NavigationLink(destination: AnimationDemo()){
+                            Text("點我看動畫")
+                        }
+                    
+                }
             }
+            .navigationBarTitle("邦邦角色介紹",displayMode: .inline)
         }
         
        

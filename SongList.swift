@@ -18,7 +18,7 @@ struct SongList: View {
                          SongRow(song: songs[item])
                     }
             }
-            .navigationBarTitle("邦邦歌曲介紹")
+            .navigationBarTitle("邦邦歌曲介紹",displayMode: .inline)
         }
         
        
