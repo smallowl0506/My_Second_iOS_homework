@@ -58,5 +58,8 @@ let songs = [
     Song(name:"FIRE BIRD",title:"Roselia",lyrics:"空がどんな高くても"),
     Song(name:"ON YOUR MARK",title:"Afterglow",lyrics:"振り返るな、二度と　前だけを見て走るんだ"),
     Song(name:"Cutie Mighty * flower",title:"Pastel*Palettes",lyrics:"応答せよっ　 可愛さよ！」"),
-    Song(name:"笑容 Sing a Song",title:"Hello, Happy World!",lyrics:"えがお・シング・あ　シング・あ・ソング！")
+    Song(name:"笑容 Sing a Song",title:"Hello, Happy World!",lyrics:"えがお・シング・あ　シング・あ・ソング！"),
+    Song(name:"chAngE(cover)",title:"Morfonica",lyrics:"chAngE　なびかない　流されないよ"),
+    Song(name:"EXPOSE 'Burn out!!!'",title:"RAISE A SUILEN",lyrics:"ココロの淵から　舌を舐めずり"),
+    Song(name:"dead",title:"全部有250首歌耶,饒了我吧......",lyrics:"恩......請自行腦補      歌詞都不能直接貼好煩啊ＱＱＱＱ")
 ]

@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct Char{
+struct Char: Identifiable {
+var id = UUID()
 let name: String
 let position: String
 let intro: String

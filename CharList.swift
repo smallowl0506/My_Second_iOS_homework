@@ -30,40 +30,12 @@ struct CharList: View {
             }
             .navigationBarTitle("邦邦角色介紹")*/
             List {
-                Section(header: Text("Poppin'Party")){
-                    ForEach(po_chars.indices){ (item) in
-                        NavigationLink(destination: CharDetail(char: po_chars[item])){
-                            CharRow(char: po_chars[item])
-                        }
-                    }
-                }
-                Section(header: Text("Roselia")){
-                    ForEach(ro_chars.indices){ (item) in
-                        NavigationLink(destination: CharDetail(char: ro_chars[item])){
-                            CharRow(char: ro_chars[item])
-                        }
-                    }
-                }
-                Section(header: Text("Afterglow")){
-                    ForEach(af_chars.indices){ (item) in
-                        NavigationLink(destination: CharDetail(char: af_chars[item])){
-                            CharRow(char: af_chars[item])
-                        }
-                    }
-                }
-                Section(header: Text("Pastel*Palettes")){
-                    ForEach(pa_chars.indices){ (item) in
-                        NavigationLink(destination: CharDetail(char: pa_chars[item])){
-                            CharRow(char: pa_chars[item])
-                        }
-                    }
-                }
-                Section(header: Text("Hello, Happy World!")){
-                    ForEach(he_chars.indices){ (item) in
-                        NavigationLink(destination: CharDetail(char: he_chars[item])){
-                            CharRow(char: he_chars[item])
-                        }
-                    }
+                Group {
+                    SectionView(headerText:"Poppin'Party",charArray:po_chars)
+                    SectionView(headerText:"Roselia",charArray:ro_chars)
+                    SectionView(headerText:"Afterglow",charArray:af_chars)
+                    SectionView(headerText:"Pastel*Palettes",charArray:pa_chars)
+                    SectionView(headerText:"Hello, Happy World!",charArray:he_chars)
                 }
                 Section(header: Text("Morfonica")){
                     Text("敬請期待")
@@ -84,6 +56,18 @@ struct CharList: View {
                         }
                     
                 }
+                Section(header: Text("SFsymbol")){
+                        NavigationLink(destination: SFDemo()){
+                            Text("點我看Demo")
+                        }
+                    
+                }
+                Section(header: Text("grid layout")){
+                        NavigationLink(destination: gridDemo()){
+                            Text("點我看漂亮照片牆")
+                        }
+                    
+                }
             }
             .navigationBarTitle("邦邦角色介紹",displayMode: .inline)
         }
@@ -95,5 +79,19 @@ struct CharList: View {
 struct CharList_Previews: PreviewProvider {
     static var previews: some View {
         CharList()
+    }
+}
+
+struct SectionView: View {
+    var headerText: String
+    var charArray: [Char]
+    var body: some View {
+        Section(header: Text(headerText)){
+            ForEach(charArray.indices){ (item) in
+                NavigationLink(destination: CharDetail(char: self.charArray[item])){
+                    CharRow(char: self.charArray[item])
+                }
+            }
+        }
     }
 }

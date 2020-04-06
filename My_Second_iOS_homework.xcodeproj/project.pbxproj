@@ -24,6 +24,8 @@
 		496EDE0B243864F200FD99FA /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EDE0A243864F200FD99FA /* SongDetail.swift */; };
 		496EDE0D2438698900FD99FA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496EDE0C2438698900FD99FA /* AppView.swift */; };
 		497254F12439A0C800E92105 /* AnimationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497254F02439A0C800E92105 /* AnimationTest.swift */; };
+		49C7E99D243B02B200F38F26 /* SFsymbolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C7E99C243B02B200F38F26 /* SFsymbolTest.swift */; };
+		49C7E99F243B068900F38F26 /* GridLayoutTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C7E99E243B068900F38F26 /* GridLayoutTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		496EDE0A243864F200FD99FA /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
 		496EDE0C2438698900FD99FA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		497254F02439A0C800E92105 /* AnimationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTest.swift; sourceTree = "<group>"; };
+		49C7E99C243B02B200F38F26 /* SFsymbolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFsymbolTest.swift; sourceTree = "<group>"; };
+		49C7E99E243B068900F38F26 /* GridLayoutTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				496EDE082438643800FD99FA /* SongList.swift */,
 				496EDE0A243864F200FD99FA /* SongDetail.swift */,
 				497254F02439A0C800E92105 /* AnimationTest.swift */,
+				49C7E99C243B02B200F38F26 /* SFsymbolTest.swift */,
+				49C7E99E243B068900F38F26 /* GridLayoutTest.swift */,
 				496EDE0C2438698900FD99FA /* AppView.swift */,
 				495B8446243701E900CBD05D /* My_Second_iOS_homework */,
 				495B8445243701E900CBD05D /* Products */,
@@ -182,10 +188,12 @@
 				496EDE0D2438698900FD99FA /* AppView.swift in Sources */,
 				496EDE052438631500FD99FA /* Song.swift in Sources */,
 				496EDE0B243864F200FD99FA /* SongDetail.swift in Sources */,
+				49C7E99F243B068900F38F26 /* GridLayoutTest.swift in Sources */,
 				496EDE012438578600FD99FA /* Data.swift in Sources */,
 				495B8448243701E900CBD05D /* AppDelegate.swift in Sources */,
 				496EDDFF24384C8D00FD99FA /* Char.swift in Sources */,
 				496EDDFD24384AC700FD99FA /* CharList.swift in Sources */,
+				49C7E99D243B02B200F38F26 /* SFsymbolTest.swift in Sources */,
 				496EDE0324385CD200FD99FA /* CharDetail.swift in Sources */,
 				497254F12439A0C800E92105 /* AnimationTest.swift in Sources */,
 				496EDE092438643800FD99FA /* SongList.swift in Sources */,
