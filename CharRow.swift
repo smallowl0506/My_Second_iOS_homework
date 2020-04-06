@@ -30,8 +30,11 @@ struct CharRow: View {
                     .clipShape(Circle())
                 VStack(alignment: .leading) {
                     Text(char.name)
+                    .background(Color.black)
+                    .foregroundColor(.yellow)
                     Text(char.position)
-
+                    .background(Color.black)
+                    .foregroundColor(.yellow)
                 }
                 Spacer()
                 

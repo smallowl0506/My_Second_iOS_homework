@@ -29,7 +29,11 @@ struct SongRow: View {
                     .clipShape(Circle())
                 VStack(alignment: .leading) {
                     Text(song.name)
+                    .background(Color.black)
+                    .foregroundColor(.yellow)
                     Text(song.title)
+                    .background(Color.black)
+                    .foregroundColor(.yellow)
 
                 }
                 Spacer()
