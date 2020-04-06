@@ -11,6 +11,12 @@ import SwiftUI
 
 struct AppView: View {
     var body: some View {
+        ZStack{
+            Image("background")
+            .resizable()
+            .scaledToFill()
+            .frame(minWidth: 0, maxWidth: .infinity)
+            .edgesIgnoringSafeArea(.all)
             VStack{
                 ScrollView(.horizontal,  showsIndicators:false){
                            HStack(spacing: 20){
@@ -66,6 +72,9 @@ struct AppView: View {
                        }
                        .accentColor(.red)
             }
+            .background(Color.clear)
+        }
+            
         
        
     }

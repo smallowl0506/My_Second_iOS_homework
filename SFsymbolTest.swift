@@ -12,12 +12,19 @@ import SwiftUI
 
 struct SFDemo: View {
     var body: some View {
-       VStack{
-            Image(systemName:"magnifyingglass")
+        ZStack{
+            Image("background")
             .resizable()
             .scaledToFill()
-            .frame(width: 200, height: 200)
-            .foregroundColor(.purple)
+            .frame(minWidth: 0, maxWidth: .infinity)
+            .edgesIgnoringSafeArea(.all)
+            VStack{
+                Image(systemName:"magnifyingglass")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 200, height: 200)
+                .foregroundColor(.yellow)
+            }
         }
         .navigationBarTitle("SFsymbol測試")
     }

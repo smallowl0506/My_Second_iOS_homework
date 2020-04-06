@@ -14,13 +14,23 @@ struct CharDetail: View {
    let char: Char
 
    var body: some View {
+    ZStack{
+        Image("ro_allmem")
+        .resizable()
+        .scaledToFill()
+        .frame(minWidth: 0, maxWidth: .infinity)
+        .edgesIgnoringSafeArea(.all)
         VStack {
             CharImage(char: char)
             Text(char.intro)
                 .frame(width: 200, height: 150, alignment: .center)
+                .background(Color.black)
+                .foregroundColor(.yellow)
             .padding(50)
         }
         .navigationBarTitle(char.name)
+    }
+        
 
   }
 }

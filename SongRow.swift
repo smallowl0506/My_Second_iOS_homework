@@ -14,20 +14,29 @@ struct SongRow: View {
     let song: Song
     
     var body: some View {
-        HStack {
-            Image(song.name)
-                .resizable()
-                .scaledToFill()
-                .frame(width: 80, height: 80)
-                .clipShape(Circle())
-            VStack(alignment: .leading) {
-                Text(song.name)
-                Text(song.title)
+        ZStack{
+            Image("star")
+            .resizable()
+            //.scaledToFill()
+            //.clipped()
+            .frame(minWidth: 420, maxHeight: 100)
+            //.edgesIgnoringSafeArea(.all)
+            HStack {
+                Image(song.name)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 80, height: 80)
+                    .clipShape(Circle())
+                VStack(alignment: .leading) {
+                    Text(song.name)
+                    Text(song.title)
 
+                }
+                Spacer()
+                
             }
-            Spacer()
-            
         }
+        
     }
 }
 

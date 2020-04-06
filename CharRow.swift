@@ -14,20 +14,30 @@ struct CharRow: View {
     let char: Char
     
     var body: some View {
-        HStack {
-            Image(char.name)
-                .resizable()
-                .scaledToFill()
-                .frame(width: 80, height: 80)
-                .clipShape(Circle())
-            VStack(alignment: .leading) {
-                Text(char.name)
-                Text(char.position)
+        ZStack{
+            Image("star")
+            .resizable()
+            //.scaledToFill()
+            //.clipped()
+            .frame(width: 420, height: 100)
+            .frame(maxWidth: 420, maxHeight: 100)
+            //.edgesIgnoringSafeArea(.all)
+            HStack {
+                Image(char.name)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 80, height: 80)
+                    .clipShape(Circle())
+                VStack(alignment: .leading) {
+                    Text(char.name)
+                    Text(char.position)
 
+                }
+                Spacer()
+                
             }
-            Spacer()
-            
         }
+        
     }
 }
 

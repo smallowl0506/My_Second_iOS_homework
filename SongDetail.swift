@@ -14,6 +14,12 @@ struct SongDetail: View {
    let song: Song
 
    var body: some View {
+    ZStack{
+        Image("ro_5th_live")
+        .resizable()
+        .scaledToFill()
+        .frame(minWidth: 0, maxWidth: .infinity)
+        .edgesIgnoringSafeArea(.all)
         VStack {
             Image(song.name)
             .resizable()
@@ -21,10 +27,13 @@ struct SongDetail: View {
                 .frame(height: 300)
                 .clipped()
             Text(song.lyrics)
+                .background(Color.black)
+                .foregroundColor(.yellow)
                 .padding()
         }
         .navigationBarTitle(song.name)
-
+    }
+        
   }
 }
 struct SongDetail_Previews: PreviewProvider {

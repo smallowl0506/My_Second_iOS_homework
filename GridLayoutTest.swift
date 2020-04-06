@@ -16,21 +16,30 @@ struct gridDemo: View {
     let photoWidth = (UIScreen.main.bounds.size.width - 10) / 2
     
     var body: some View {
-        List{
-            ForEach(names.indices){ (row) in
-                HStack(spacing:10){
-                    ForEach(self.names[row].indices){ (column) in
-                        Image(self.names[row][column])
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: self.photoWidth, height: self.photoWidth)
-                        .clipped()
+        ZStack{
+            Image("background")
+            .resizable()
+            .scaledToFill()
+            .frame(minWidth: 0, maxWidth: .infinity)
+            .edgesIgnoringSafeArea(.all)
+            VStack{
+                List{
+                    ForEach(names.indices){ (row) in
+                        HStack(spacing:4){
+                            ForEach(self.names[row].indices){ (column) in
+                                Image(self.names[row][column])
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: self.photoWidth, height: self.photoWidth)
+                                .clipped()
+                            }
+                        }
+                        .listRowInsets(EdgeInsets(top:0,leading: 3,bottom: 3,trailing: 3))
+                    }
+                    .onAppear{
+                       // UITableView.appearance().seperatorColor = .clear
                     }
                 }
-                .listRowInsets(EdgeInsets(top:0,leading: 0,bottom: 10,trailing: 0))
-            }
-            .onAppear{
-               // UITableView.appearance().seperatorColor = .clear
             }
         }
         .navigationBarTitle("grid layout測試")
