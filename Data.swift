@@ -54,12 +54,12 @@ let sp_chars = [
 
 
 let songs = [
-    Song(name:"Dreamers Go!",title:"Poppin'Party",lyrics:"時に！夢が醒めても"),
-    Song(name:"FIRE BIRD",title:"Roselia",lyrics:"空がどんな高くても"),
-    Song(name:"ON YOUR MARK",title:"Afterglow",lyrics:"振り返るな、二度と　前だけを見て走るんだ"),
-    Song(name:"Cutie Mighty * flower",title:"Pastel*Palettes",lyrics:"応答せよっ　 可愛さよ！」"),
-    Song(name:"笑容 Sing a Song",title:"Hello, Happy World!",lyrics:"えがお・シング・あ　シング・あ・ソング！"),
-    Song(name:"chAngE(cover)",title:"Morfonica",lyrics:"chAngE　なびかない　流されないよ"),
-    Song(name:"EXPOSE 'Burn out!!!'",title:"RAISE A SUILEN",lyrics:"ココロの淵から　舌を舐めずり"),
+    Song(name:"Dreamers Go!",title:"Poppin'Party",lyrics:"時に！夢が醒めても\n故に！夢が霞んでも\n正に！繋がれたから\nまた会えるから　Dreamers Go!\n\nFun Fun Fun!　声をあわせて\nPan Pa Pan!　両手をあわせて\nTan Ta Tan!　軽やかに行こう\n絆がつづる　Story\n\n（どうしてここまで来たの？\nキミがいるからだよ！\nどうなの？　最近　どうよ？\n大好き　止まらない！\n（そうなの？　本当にホント？）\nだって運命　感じちゃったから\nありがとう　Dear Friends\n\n(Dreamers Go!)\nGo Go Go! ときめけ！ Go! Dreamers!\nネガイゴトを拾い集めて\n夢の）唄をつくろう！（祈りの唄を\nいちばん大事なこの気持ち　さけぼう！\n今すぐに）　ありったけ鞄につめこんで\n飛びこもう）とびきりの未来へ\n\n繋ご！世界のぜんぶ\n出会お！旅から旅へと\n紡ご！イマジネーション夢の先には　Glory\n\n（いつか　別れが来るの？）何度でも出会おう！\n（思い届かなかった…）\n何度も　歌おうよ！\n（そうだね　本当にそうだ）\nだって愛しさ　溢れちゃったから\n感激 Dear my band!\n\n(Dreamers High!)\n\nHigh High High! 夢見て　High! Dreamers!\nやっとのこと唄ができたよ\n（だから）キミに会いたい（集まりたいよ）\n心ときめく宝物　探そう！\n（今すぐに）からっぽの鞄をぶらさげて\n（まっすぐに）まっさらな未来へ\n\n最高の出会い\nステキに　Dear friends!\n\n(Dreamers Go!)\nGo Go Go! ときめけ！Go! Dreamers!\nネガイゴトを拾い集めて\n（夢の）唄をつくろう！（祈りの唄を）\nいちばん大事なこの気持ち　さけぼう！\n（今すぐに）ありったけ鞄につめこんで\n（飛びこもう）とびきりの未来へ"),
+    Song(name:"FIRE BIRD",title:"Roselia",lyrics:"空がどんな高くても\n羽根が千切れ散っても\n飛び立つこと恐れずに\n焦がせ不死なる絆\nFly to the sky…Fire bird!\n「潰えぬ夢へ　燃え上がれ」\n\n(Burning up)\n(Lala, lalala, Lala, lalala,)\n\n暗闇での絶望も\nどうか怖がらないで\n貴方の胸いつだって\n灯す夢があるから"),
+    Song(name:"ON YOUR MARK",title:"Afterglow",lyrics:"振り返るな、二度と　前だけを見て走るんだ\n信じた分の夢が\nNever(Yes!)mind(Yes!)チカラとなる\n背中は優しさと強さが　頼もしく支えるよ\nそれは絶対的な仲間のキズナ\n\nささくれてゆく(Wow wow wow)\n言葉から(Wow wow wow)\n自分を傷つけてしまう日もある\nそんなときこそ(そうさ)\n弱さをこじ開けて(本音を引きずり出して)\n挑む(変わらない明日の為に)\nあたしが守る！あたしたちを！(君と)\n    On your mark, Get set, Go!!!"),
+    Song(name:"Cutie Mighty * flower",title:"Pastel*Palettes",lyrics:"「応答せよっ　 可愛さよ！」\nか弱く揺れてるだけの乙女心じゃないんだ　常に\n《go! go! go! go for it!》\n目まぐるしい毎日に　振り落とされないように\n努力×努力で立ち向かう　強さにあふれてる\n\n汗となみだ　声にカスタマイズ！《きらーん！》\nヒミツちょっとあってもいいでしょ？\n《1, 2, 3, 4！》"),
+    Song(name:"笑容 Sing a Song",title:"Hello, Happy World!",lyrics:"えがお・シング・あ　シング・あ・ソング！\nえがお・シング・あ　シング・あ・ソング！\nLet's yeah！！\n\n(ハロハピタイム de ハッピータイム！)\n(いぇい！いぇい！ハッピータイム！)\n(ハロハピチャンス de ハッピーチャンス！)\n(いぇい！いぇい！ハッピーチャンス！)\n寝ても覚めてもピカピカの\n(らんらんらん　よろこび)\nハートがふるふる歌いだす\n(らんらんらん　だいすき)\nめそめそさん　うぇるかむ(ah～♪)\n年中無休で(解決だ！)\n泣き顔には　グッドバイしちゃえ\n(らんらんららん　らんららん)\nボクたちは(らんらんららん)\n仲間だっ！Sing♪"),
+    Song(name:"chAngE(cover)",title:"Morfonica",lyrics:"chAngE　なびかない　流されないよ\n今感じることに　素直でいたいの\nchAngE　何度でも　生まれ変わるの\n悲しみも抱きしめて　走り出すよ\n\nタノシイ裏切りにあって　とらわれない私がここにいるの\n足りない　尽きない　なんだって　もっと　歪ませてよ\nパターン化したこんな世界じゃ　自分が誰なのか分からなくなる\n枠にはまりたくないわ　決めつけないでよ"),
+    Song(name:"EXPOSE 'Burn out!!!'",title:"RAISE A SUILEN",lyrics:"ココロの淵から　舌を舐めずり\n暗い呪文並べて Aiming for\n笑顔で凶暴さを Calm\ndown　たしなめて\n仮面を取っ替え引っ替えやってる\nShow time!\n\nHi★ What happened?\n常に何かのシンドロームでドロッドロ\n安心？(NO!)平常心？(NO!)\nいつまでやってんの？　おヒマなんですの？\nListen with attention…\nLet's ブチ壊して\n(Countdown 3,2,1)\nReady go!"),
     Song(name:"dead",title:"全部有250首歌耶,饒了我吧......",lyrics:"恩......請自行腦補      歌詞都不能直接貼好煩啊ＱＱＱＱ")
 ]

@@ -69,6 +69,9 @@ struct CharList: View {
                     
                 }
             }
+            .onAppear{
+                UITableView.appearance().separatorColor = .clear
+            }
             .navigationBarTitle("邦邦角色介紹",displayMode: .inline)
         }
         

@@ -24,7 +24,7 @@ struct SongDetail: View {
             Image(song.name)
             .resizable()
                 .scaledToFill()
-                .frame(height: 300)
+                .frame(height: 400)
                 .clipped()
             Text(song.lyrics)
                 .background(Color.black)
