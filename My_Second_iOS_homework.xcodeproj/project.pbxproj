@@ -29,7 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		495B8444243701E900CBD05D /* My_Second_iOS_homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_Second_iOS_homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3509AB83243DE47A007213FD /* My_Second_iOS_homework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = My_Second_iOS_homework.entitlements; sourceTree = "<group>"; };
+		495B8444243701E900CBD05D /* 邦邦部分角色與歌曲簡介.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "邦邦部分角色與歌曲簡介.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		495B8447243701E900CBD05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		495B8449243701E900CBD05D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		495B844B243701E900CBD05D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,7 +88,7 @@
 		495B8445243701E900CBD05D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				495B8444243701E900CBD05D /* My_Second_iOS_homework.app */,
+				495B8444243701E900CBD05D /* 邦邦部分角色與歌曲簡介.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +96,7 @@
 		495B8446243701E900CBD05D /* My_Second_iOS_homework */ = {
 			isa = PBXGroup;
 			children = (
+				3509AB83243DE47A007213FD /* My_Second_iOS_homework.entitlements */,
 				495B8447243701E900CBD05D /* AppDelegate.swift */,
 				495B8449243701E900CBD05D /* SceneDelegate.swift */,
 				495B844B243701E900CBD05D /* ContentView.swift */,
@@ -131,7 +133,7 @@
 			);
 			name = My_Second_iOS_homework;
 			productName = My_Second_iOS_homework;
-			productReference = 495B8444243701E900CBD05D /* My_Second_iOS_homework.app */;
+			productReference = 495B8444243701E900CBD05D /* 邦邦部分角色與歌曲簡介.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -336,8 +338,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = My_Second_iOS_homework/My_Second_iOS_homework.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"My_Second_iOS_homework/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = My_Second_iOS_homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -345,7 +350,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.steven.My-Second-iOS-homework";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "邦邦部分角色與歌曲簡介";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,8 +361,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = My_Second_iOS_homework/My_Second_iOS_homework.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"My_Second_iOS_homework/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = My_Second_iOS_homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,7 +373,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.steven.My-Second-iOS-homework";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "邦邦部分角色與歌曲簡介";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
